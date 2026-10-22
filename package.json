@@ -1,11 +1,12 @@
+
 {
   "name": "email-sending",
   "version": "1.0.0",
-  "description": "",
+  "description": "Email sending API",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "node -e \"console.log('No build step required for Express API')\""
   },
   "keywords": [],
   "author": "",
